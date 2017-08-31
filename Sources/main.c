@@ -23,7 +23,7 @@ int main(void)
 		b = 5;
 		c = 4;
 		d = 3;
-		e = 2;
+		e = 23;
 
 		d^=e;
 		e^=d;
