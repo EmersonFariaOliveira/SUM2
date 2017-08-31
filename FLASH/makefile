@@ -14,8 +14,8 @@ RM := "$(GNU_Make_Install_DirEnv)/rm" -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir.mk
+-include project_settings/Startup_Code/subdir.mk
 -include Sources/subdir.mk
--include Project_Settings/Startup_Code/subdir.mk
 -include Generated_Code/subdir.mk
 -include objects.mk
 
@@ -57,7 +57,7 @@ SUM2.elf \
 all: warning-messages explicit-dependencies SUM2.elf secondary-outputs
 
 # Tool invocations
-SUM2.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/ProcessorExpert.ld
+SUM2.elf: $(OBJS) $(USER_OBJS) ../project_settings/Linker_Files/ProcessorExpert.ld
 	@echo 'Building target: $@'
 	@echo 'Executing target #9 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
@@ -77,7 +77,7 @@ secondary-outputs:
 
 -include ../makefile.targets
 
-explicit-dependencies: ../Project_Settings/Linker_Files/ProcessorExpert.ld 
+explicit-dependencies: ../project_settings/Linker_Files/ProcessorExpert.ld 
 
 warning-messages: 
 

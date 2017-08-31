@@ -2,11 +2,11 @@
 <PEproject>
   <Header>
     <Name>SUM2</Name>
-    <SavedBy>Luiz</SavedBy>
+    <SavedBy>aluno</SavedBy>
     <ModificationStamp>2</ModificationStamp>
-    <Date>2017-08-27</Date>
+    <Date>2017-08-31</Date>
     <IDE>Eclipse IDE</IDE>
-    <PEversion>1.9.2.RT6_b1446-0504</PEversion>
+    <PEversion>1.9.0.RT6_b1411-0406</PEversion>
   </Header>
   <Options>
     <ProjectMainModule>main</ProjectMainModule>
